@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function addAllCandidates(list) {
     return {
-        type: 'ADD_ALL',
+        type: 'INIT',
         payload: list
     }
 }
