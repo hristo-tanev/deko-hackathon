@@ -8,6 +8,9 @@ export default class NewApplicant extends Component {
         <label>Name: </label>
         <input type='text' />
 
+        <label>Position: </label>
+        <input type='text' />
+
         <label>CV: </label>
         <input type='text' />
         <label>Phone: </label>
