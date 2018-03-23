@@ -20,13 +20,20 @@ class Applicant extends Component {
       stages
     } = this.props.info;
 
+    const allStages = stages.map((stage, key) => {
+       return <span key={key}>{stage.type}</span>
+    });
+
     return(
         <div className='applicant-card'>
-          <span>position: {position}</span>
-          <span>name: {firstname} {lastname}</span>
-          <span>cv:</span>
-          <span>phone: {phone}</span>
-          <span>email: {email}</span>
+          <div>position: {position}</div>
+          <div>name: {firstname} {lastname}</div>
+          <div>cv:</div>
+          <div>phone: {phone}</div>
+          <div>email: {email}</div>
+          <div>
+            {allStages}
+          </div>
           <button onClick={this.handleClick}>Show applicant</button>
         </div>
       )
