@@ -11,7 +11,6 @@ class App extends Component {
     this.props.actions.getCandidates();
   }
 
-
   render() {
     return (
       <div className="App">
@@ -23,6 +22,12 @@ class App extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  return {
+      candidates: state.candidates
+  }
+};
+
 const mapDispatchToProps = (dispatch) => ({
     actions: bindActionCreators({
         getCandidates,
@@ -30,6 +35,6 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(
-    () => ({}),
+    mapStateToProps,
     mapDispatchToProps
 )(App);
