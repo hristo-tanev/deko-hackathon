@@ -1,0 +1,26 @@
+.applicant-index {
+  width: 80%;
+  margin: auto;
+}
+
+.applicant-card {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: space-between;
+  margin: 10px 0;
+  padding: auto;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.view-applicant {
+  margin-left: auto;
+  margin-right: 0;
+
+}
+
+span{
+  border: 1px solid #eee;
+  line-height: 50px;
+  flex: 1 1 auto;
+}

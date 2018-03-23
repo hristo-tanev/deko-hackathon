@@ -19,7 +19,7 @@ class Applicant extends Component {
           <span>phone: {this.props.phone}</span>
           <span>email: {this.props.email}</span>
           <span>current stage: {this.props.stage}</span>
-          <button onClick={this.handleClick}>Show applicant</button>
+          <button className='view-applicant btn btn-primary' onClick={this.handleClick}>Show applicant</button>
         </div>
       )
   }

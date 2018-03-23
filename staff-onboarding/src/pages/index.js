@@ -4,7 +4,7 @@ import Applicant from '../components/applicant';
 class ApplicantIndex extends Component {
   render() {
     return (
-      <div>
+      <div className='applicant-index'>
         <Applicant />
         <Applicant />
         <Applicant />
