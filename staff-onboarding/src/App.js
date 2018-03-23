@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NewApplicant from './components/new_applicant';
 
 class App extends Component {
