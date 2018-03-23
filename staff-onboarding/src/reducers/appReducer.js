@@ -2,7 +2,7 @@ import initialState from '../initialState';
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'TEST':
+        case 'ADD_CANDIDATE':
             return {...state};
         default:
             return {...state};
