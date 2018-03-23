@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import Header from './components/header';
 import ApplicantIndex from './pages/index';
+import './styles/index.css';
 
 class App extends Component {
   render() {

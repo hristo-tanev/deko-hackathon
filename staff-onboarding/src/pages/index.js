@@ -14,7 +14,7 @@ class ApplicantIndex extends Component {
        return <Applicant key={key} info={candidate} />;
     });
     return (
-      <div>
+      <div className='applicant-index'>
           {candidates}
       </div>
     )

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {addNewCandidate} from '../actions/appActions';
@@ -72,8 +73,12 @@ class NewApplicant extends Component {
         });
     }
 
+=======
+import './styles/new_applicant.css';
+>>>>>>> e49215bfcfc9066525926adea752ee48dfead9d1
 
   render(){
+<<<<<<< HEAD
     const {
         firstName,
         lastName,
@@ -99,6 +104,39 @@ class NewApplicant extends Component {
         <input type='text' onChange={this.getStages} value={stages.join(',')} />
         <button type='submit' onClick={this.add}>Add! </button>
       </div>
+=======
+    return (
+      <form>
+        <h1>Add new candidate</h1>
+        <div>
+          <label>Name: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <label>Position: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <label>CV: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <label>Phone: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <label>Email: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <label>Stages: </label>
+          <input type='text' />
+        </div>
+        <div>
+          <button type='submit' className='btn btn-primary'>Add! </button>
+        </div>
+      </form>
+>>>>>>> e49215bfcfc9066525926adea752ee48dfead9d1
       )
   }
 }

@@ -1,0 +1,15 @@
+form {
+  display: block;
+  width: 33%;
+  margin: auto;
+}
+
+
+form > div {
+  margin: 20px auto;
+}
+
+input, label {
+  width: 100%;
+}
+
