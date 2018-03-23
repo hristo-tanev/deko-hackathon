@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Applicant extends Component {
   constructor(props){
     super(props);
+    this.handleClick = this.handleClick.bind(this);
   }
-
-  handClick(e){
+  handleClick(e){
     e.preventDefault();
-    console.log('dicks');
   }
 
   render(){

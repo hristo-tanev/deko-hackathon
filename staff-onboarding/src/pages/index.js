@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Applicant from './applicant';
+import Applicant from '../components/applicant';
 
-class ApplicantContainer extends Component {
+class ApplicantIndex extends Component {
   render() {
     return (
       <div>
@@ -15,4 +15,4 @@ class ApplicantContainer extends Component {
   }
 }
 
-export default ApplicantContainer;
+export default ApplicantIndex;
